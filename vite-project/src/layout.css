@@ -1,0 +1,29 @@
+.footerdetails{
+    font-size: 12px;
+}
+.emaildetailshome{
+        background-image: url('https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/envelope.svg'); /* URL for the Bootstrap icon */
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        padding-left: 35px; /* Adjust this based on the icon size */
+        border-radius: 50px; /* For rounded borders */
+}
+.btnnews{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+}
+ul.navbar-nav.mb-2.mb-lg-0 {
+    padding: 0 0 0 25px;
+}
+
+/* Custom navbar styles */
+ul.navbar-nav {
+    padding-left: 25px; /* Adjust padding for mobile */
+  }
+  
+  @media (max-width: 768px) {
+    ul.navbar-nav {
+      padding-left: 0;
+    }
+  }

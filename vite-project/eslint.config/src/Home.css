@@ -1,0 +1,21 @@
+.main_1 {
+    background: #F2F0F1;
+   background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.endm{
+    margin:0 0 0 0;
+}
+.flex-fill {
+    
+    margin-bottom: 90px;
+    flex: 1 1 auto !important;
+}
+
+@media (max-width: 767.98px) {
+    .flex-fill {
+      padding-bottom: 40px;
+    }
+  }
+
